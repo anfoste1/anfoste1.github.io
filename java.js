@@ -1,8 +1,8 @@
 // This section of code is how we prepare our code
 // so this it is prepared to react to user events.
 $(document).ready(function() {
-  $(".btn btn-success").on("click", addItem);
-  $(".link-delete").on("click", deleteItem);
+  $(".btn").on("click", addItem);
+  // $(".link-delete").on("click", deleteItem);
   $("ol").on("click", ".link-delete", deleteItem);
 });
 
