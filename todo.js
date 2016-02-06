@@ -10,7 +10,7 @@ $(document).ready(function() {
 // and then appends it to the existing list of items.
 // It also updates the counter at the top of the screen.
 function addItem() {
-  var text = window.prompt("New To-Do Item");
+  var text = window.prompt("iKando - what KanUdo?");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   // console.log("Yup!");
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
@@ -18,10 +18,10 @@ function addItem() {
 
   // Challenge: Differentiate between 1 item vs. more items
   if (numItems == 1) {
-    $(".total").html(numItems + " item");
+    $(".total").html(0 - 17 + numItems + " item");
   }
   else {
-    $(".total").html(numItems + " items");
+    $(".total").html(0 - 17 + numItems + " items");
   }
 }
 
@@ -33,4 +33,18 @@ function deleteItem(event) {
   // $(event.target).remove();
   $(event.target).parent().fadeOut();
 
+}
+
+body {
+  margin-top: 30px;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 36px;
+  color: #ff3061;
+  padding-top: 20px;
+}
+h1 {
+  font-family: 'Kaushan Script', cursive;
 }

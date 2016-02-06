@@ -34,3 +34,21 @@
 #xxx {
   font-size: 2000%;
 }
+
+.centerImage {text-align: center;}
+
+#BIG {
+  font-size: 1500%;
+  text-align: left;
+}
+
+#NEW{
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  color: black;
+  padding-top: 20px;
+}
+
+#STUDENT{
+  padding:0px,40px,0px,0px;
+}
