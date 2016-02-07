@@ -18,10 +18,10 @@ function addItem() {
 
   // Challenge: Differentiate between 1 item vs. more items
   if (numItems == 1) {
-    $(".total").html(0 - 17 + numItems + " item");
+    $(".total").html(0 - 6 + numItems + " item");
   }
   else {
-    $(".total").html(0 - 17 + numItems + " items");
+    $(".total").html(0 - 6 + numItems + " items");
   }
 }
 
@@ -33,18 +33,4 @@ function deleteItem(event) {
   // $(event.target).remove();
   $(event.target).parent().fadeOut();
 
-}
-
-body {
-  margin-top: 30px;
-}
-
-.navbar-inverse .navbar-brand {
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 36px;
-  color: #ff3061;
-  padding-top: 20px;
-}
-h1 {
-  font-family: 'Kaushan Script', cursive;
 }

@@ -22,6 +22,16 @@
   overflow: hidden;
 }
 
+#LOGO {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  color: white;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
 #p01 {
   color: white;
   font-size: 270%;
